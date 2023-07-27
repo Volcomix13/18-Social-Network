@@ -25,4 +25,4 @@ const Schema = new Schema(
   }
 );
 
-module.exports = ReactionSchema;
+module.exports = Reaction;
