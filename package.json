@@ -1,0 +1,25 @@
+{
+    "name": "18-social-network",
+    "version": "1.0.0",
+    "description": "## Table of Contents",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Volcomix13/18-Social-Network"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Volcomix13/18-Social-Network"
+    },
+    "homepage": "https://github.com/Volcomix13/18-Social-Network",
+    "dependencies": {
+      "express": "^4.17.3",
+      "mongoose": "^6.2.9"
+    }
+  }

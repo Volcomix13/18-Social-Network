@@ -1,8 +1,7 @@
-const { Schema, model,} = require('mongoose');
-const thoughtSchema = require('./Thought');
+const { Schema, model} = require('mongoose');
 const reactionSchema = require('./Reaction');
 
-// Schema to create Student model
+
 const thoughtSchema = new Schema(
   {
     thoughtText: {
@@ -26,7 +25,5 @@ const thoughtSchema = new Schema(
     return this.reactions.length;
   });
 
-
-const Thought = model('Thought', thoughtSchema);
-
+const Thought = model("Thought", thoughtSchema);
 module.exports = Thought;
