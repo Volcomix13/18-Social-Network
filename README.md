@@ -14,17 +14,11 @@ The challenges I encountered were mainly learning how to create the correct rout
 
 ## Installation
 
-
-
+To get started, in your terminal run command npm install. Once this is complete, run command npm start. From there you can go to Insomnia and follow the steps under Usage.
 
 
 ## Usage
-
-
-
-    
-![Image](./assets/image.png)
-    
+In insomnia add the route you want to test out and click the send button, this will submit your changes depending on the route you chose.
 
 Repo link: https://github.com/Volcomix13/18-Social-Network
 
